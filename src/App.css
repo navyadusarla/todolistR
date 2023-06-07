@@ -1,0 +1,51 @@
+*{
+  background-color: greenyellow;
+}
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 10%;
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: white;
+  border: none;
+  border-radius: 30%;
+  text-align: center;
+  margin-left: 44%;
+  padding: 1%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  margin-left: 10%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+button {
+  margin-left: 8px;
+  text-align: center;
+  margin-left: 47%;
+  background-color: rgb(75, 2, 2);
+  color: white;
+  padding: 1%;
+  border:none;
+  border-radius:5%;
+  display: flex;
+  justify-content: center;
+}
+button:hover{
+  background-color: white;
+  color: rgb(149, 42, 165);
+}
